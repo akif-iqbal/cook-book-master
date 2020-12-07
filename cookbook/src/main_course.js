@@ -6,10 +6,10 @@ class main_course extends React.Component {  
   render() {  
     return (  
       <body>  
-        <img src="/images/main_course.png"></img> 
+        <img src="/images/main_course.png " id="food"></img> 
 		{mcdata.map((mcdetails, index) => {
 			return <div>
-				<h1>{mcdetails.id}) <a href={mcdetails.url}>{mcdetails.name}</a></h1>
+				<h1><img src="/images/bullet.png" id="bullets"></img> <a href={mcdetails.url}>{mcdetails.name}</a></h1>
 				<p>Recipe: {mcdetails.recipe}</p>
 				</div>
 		})}

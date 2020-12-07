@@ -15,12 +15,12 @@ function App(){
                     <thead></thead>
                     <tbody>
                         <tr>
-                            <td><NavLink exact activeClassName="active" to="/" style={{display: "inline-block"}}>Home</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><NavLink exact activeClassName="active" to="/bevmenu" style={{display: "inline-block"}}>Beverages</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><NavLink exact activeClassName="active" to="/dessert" style={{display: "inline-block"}}>Dessert</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><NavLink exact activeClassName="active" to="/main_course" style={{display: "inline-block"}}>Main Course</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><NavLink exact activeClassName="active" to="/salad" style={{display: "inline-block"}}>Salad</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <td><NavLink exact activeClassName="active" to="/starters" style={{display: "inline-block"}}>Starters</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td><NavLink exact activeClassName="active" to="/" style={{fontFamily: "cursive"}}>Home</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td><NavLink exact activeClassName="active" to="/bevmenu" style={{fontFamily: "cursive"}}>Beverages</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td><NavLink exact activeClassName="active" to="/dessert" style={{fontFamily: "cursive"}}>Dessert</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td><NavLink exact activeClassName="active" to="/main_course" style={{fontFamily: "cursive"}}>Main Course</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td><NavLink exact activeClassName="active" to="/salad" style={{fontFamily: "cursive"}}>Salad</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td><NavLink exact activeClassName="active" to="/starters" style={{fontFamily: "cursive"}}>Starters</NavLink></td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </tr>
                     </tbody>
                 </table>
